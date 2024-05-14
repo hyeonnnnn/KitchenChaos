@@ -73,8 +73,6 @@ public class Player : MonoBehaviour {
         } else {
             SetSelectedCounter(null); // 선택된 카운터 X
         }
-
-        Debug.Log(selectedCounter);
     }
 
     // 이동 처리 메서드
