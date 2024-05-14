@@ -748,6 +748,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   gameInput: {fileID: 763428675}
+  counterLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!114 &1189816864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1059,6 +1062,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ClearCounter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1879382673442696374, guid: 765d4df7f84cccb4d901c5ee6c0fc918,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712604666344223045, guid: 765d4df7f84cccb4d901c5ee6c0fc918,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8060054224452687520, guid: 765d4df7f84cccb4d901c5ee6c0fc918,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 765d4df7f84cccb4d901c5ee6c0fc918, type: 3}
